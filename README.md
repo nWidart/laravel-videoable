@@ -7,6 +7,22 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
+**Laravel Videoable** is a quick and easy way to add a video to your Eloquent Models. It also features a way to generate the embed code directly.
+
+``` php
+$product = Product::create(['product_name' => 'something']);
+
+$product->addVideo([
+   'source' => 'youtube',
+   'code' => '123',
+   'title' => 'my video',
+   'width' => 50,
+   'height' => 150,
+]);
+
+// Get the embeddable code
+$product->video->getEmbed();
+```
 
 ## Install
 
