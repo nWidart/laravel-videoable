@@ -78,7 +78,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-downloads]: https://img.shields.io/packagist/dt/nwidart/laravel-videoable.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/nwidart/laravel-videoable
-[link-travis]: https://travis-ci.org/nwidart/laravel-videoable
+[link-travis]: https://travis-ci.org/nWidart/laravel-videoable
 [link-scrutinizer]: https://scrutinizer-ci.com/g/nwidart/laravel-videoable/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/nwidart/laravel-videoable
 [link-downloads]: https://packagist.org/packages/nwidart/laravel-videoable
