@@ -87,7 +87,11 @@ HTML;
         $product->video->getEmbed();
     }
 
-    private function createProductWithVideo(array $attributes = []) : Product
+    /**
+     * @param array $attributes
+     * @return Product
+     */
+    private function createProductWithVideo(array $attributes = [])
     {
         $data = [
             'source' => 'youtube',
