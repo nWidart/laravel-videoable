@@ -43,6 +43,8 @@ $ composer require nwidart/laravel-videoable
 
 ## Documentation
 
+Coming soon
+
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
