@@ -43,7 +43,7 @@ $ composer require nwidart/laravel-videoable
 
 ## Documentation
 
-Coming soon
+You'll find installation instructions and full documentation on https://nwidart.com/laravel-videoable/.
 
 ## Change log
 
