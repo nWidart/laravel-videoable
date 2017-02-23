@@ -10,6 +10,6 @@ final class VimeoPresenter extends BaseVideoSource
      */
     public function getEmbedCode()
     {
-        return view('videoable::sources.vimeo', ['code' => $this->entity->code])->render();
+        return view('laravel-videoable::sources.vimeo', ['code' => $this->entity->code])->render();
     }
 }

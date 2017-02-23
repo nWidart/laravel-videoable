@@ -15,7 +15,7 @@ class LaravelVideoableServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'videoable');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'laravel-videoable');
 
         if ($this->app->runningInConsole()) {
             if (! class_exists('CreateVideosTable')) {
@@ -28,6 +28,10 @@ class LaravelVideoableServiceProvider extends ServiceProvider
             $this->publishes([
                 __DIR__.'/../config/laravel-videoable.php' => config_path('laravel-videoable.php'),
             ], 'config');
+
+            $this->publishes([
+                __DIR__ . '/../resources/views' => resource_path('views/vendor/laravel-videoable'),
+            ], 'views');
         }
     }
 }

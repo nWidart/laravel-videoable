@@ -10,6 +10,6 @@ final class YoutubePresenter extends BaseVideoSource
      */
     public function getEmbedCode()
     {
-        return view('videoable::sources.youtube', ['code' => $this->entity->code])->render();
+        return view('laravel-videoable::sources.youtube', ['code' => $this->entity->code])->render();
     }
 }
