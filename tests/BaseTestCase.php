@@ -49,7 +49,7 @@ abstract class BaseTestCase extends TestCase
             $table->string('product_name');
         });
 
-        include_once __DIR__ . '/../resources/migrations/create_video_table.php.stub';
+        include_once __DIR__ . '/../database/migrations/create_video_table.php.stub';
         (new \CreateVideosTable())->up();
     }
 
