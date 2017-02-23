@@ -48,13 +48,12 @@ class VideoTest extends BaseTestCase
         $product = $this->createProductWithVideo();
 
         $expected = <<<HTML
-<div>
-    <div class="video">
-        <iframe id="ytplayer" type="text/html" width="100%" height="100%"
-                src="https://www.youtube.com/embed/123?rel=0"
-                frameborder="0" allowfullscreen></iframe>
-    </div>
+<div class="video">
+    <iframe id="ytplayer" type="text/html" width="100%" height="100%"
+            src="https://www.youtube.com/embed/123?rel=0"
+            frameborder="0" allowfullscreen></iframe>
 </div>
+
 HTML;
 
         $this->assertEquals($expected, $product->video->getEmbed());
@@ -66,12 +65,11 @@ HTML;
         $product = $this->createProductWithVideo(['source' => 'vimeo']);
 
         $expected = <<<HTML
-<div>
-    <div class="video">
-        <iframe src="https://player.vimeo.com/video/123?byline=0&portrait=0&badge=0" width="100%" height="100%" frameborder="0"
-        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
+<div class="video">
+    <iframe src="https://player.vimeo.com/video/123?byline=0&portrait=0&badge=0" width="100%" height="100%"
+            frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
+
 HTML;
 
         $this->assertEquals($expected, $product->video->getEmbed());
