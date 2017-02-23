@@ -30,7 +30,7 @@ class LaravelVideoableServiceProvider extends ServiceProvider
             ], 'config');
 
             $this->publishes([
-                __DIR__ . '/../resources/views' => resource_path('views/vendor/laravel-videoable'),
+                __DIR__ . '/../resources/views' => base_path('resources/views/vendor/laravel-videoable'),
             ], 'views');
         }
     }
