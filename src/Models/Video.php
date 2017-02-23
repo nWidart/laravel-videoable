@@ -17,7 +17,7 @@ class Video extends Model
 
     public function getEmbed()
     {
-        $sourceClass = '\Nwidart\LaravelVideoable\Sources\\' . ucfirst($this->source) . 'Presenter';
+        $sourceClass = config("laravel-videoable.sources.{$this->source}");
 
         if (class_exists($sourceClass) === false) {
             throw new VideoPresenterNotFound($sourceClass);
