@@ -5,6 +5,7 @@ namespace Nwidart\LaravelVideoable\tests;
 use Nwidart\LaravelVideoable\Exceptions\VideoPresenterNotFound;
 use Nwidart\LaravelVideoable\Models\Video;
 use Nwidart\LaravelVideoable\tests\Stubs\Product;
+use Nwidart\LaravelVideoable\Tests\Stubs\TestPresenter;
 
 class VideoTest extends BaseTestCase
 {
@@ -83,6 +84,19 @@ HTML;
         $this->expectException(VideoPresenterNotFound::class);
 
         $product->video->getEmbed();
+    }
+
+    /** @test */
+    public function it_allows_custom_presenters_to_be_used()
+    {
+        include __DIR__ . '/Stubs/TestPresenter.php';
+        $this->app['config']->set(
+            'laravel-videoable.sources.testsource', TestPresenter::class
+        );
+        $product = $this->createProductWithVideo(['source' => 'testsource']);
+
+        $expected = 'My custom presenter content.';
+        $this->assertEquals($expected, $product->video->getEmbed());
     }
 
     /**
