@@ -6,17 +6,6 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ## NEXT - YYYY-MM-DD
 
-### Added
-- Nothing
+## 1.0.0 - 2017-03-13
 
-### Deprecated
-- Nothing
-
-### Fixed
-- Nothing
-
-### Removed
-- Nothing
-
-### Security
-- Nothing
+**Initial Release**
