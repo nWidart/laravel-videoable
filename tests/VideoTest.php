@@ -50,7 +50,7 @@ class VideoTest extends BaseTestCase
 
         $expected = <<<HTML
 <div class="video">
-    <iframe id="ytplayer" type="text/html" width="100%" height="100%"
+    <iframe class="ytplayer" type="text/html" width="100%" height="100%"
             src="https://www.youtube.com/embed/123?rel=0"
             frameborder="0" allowfullscreen></iframe>
 </div>
