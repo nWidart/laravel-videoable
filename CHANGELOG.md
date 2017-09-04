@@ -6,6 +6,12 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 
 ## NEXT - YYYY-MM-DD
 
+## 2.0.0 - 2017-09-04
+
+### Added
+
+- Support for laravel 5.5
+
 ## 1.0.0 - 2017-03-13
 
 **Initial Release**

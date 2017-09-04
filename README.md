@@ -7,6 +7,11 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/nWidart/laravel-videoable.svg?style=flat-square)](https://scrutinizer-ci.com/g/nWidart/laravel-videoable)
 [![Total Downloads][ico-downloads]][link-downloads]
 
+| **Laravel**  |  **laravel-videoable** |
+|---|---|
+| <= 5.4  | ^1.0 |
+| 5.5  | ^2.0  |
+
 **Laravel Videoable** is a quick and easy way to add a video to your Eloquent Models. It also features a way to generate the embed code directly.
 
 ``` php
