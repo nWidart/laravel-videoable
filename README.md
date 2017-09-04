@@ -2,8 +2,8 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/nWidart/laravel-videoables/master.svg?style=flat-square)](https://travis-ci.org/nWidart/laravel-videoable)
-[![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/nWidart/laravel-videoable.svg?style=flat-square)](https://scrutinizer-ci.com/g/nWidart/laravel-videoable/?branch=master)
+[![Build Status](https://img.shields.io/travis/nWidart/laravel-videoables/1.0.svg?style=flat-square)](https://travis-ci.org/nWidart/laravel-videoable)
+[![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/nWidart/laravel-videoable.svg?style=flat-square)](https://scrutinizer-ci.com/g/nWidart/laravel-videoable/?branch=1.0)
 [![Quality Score](https://img.shields.io/scrutinizer/g/nWidart/laravel-videoable.svg?style=flat-square)](https://scrutinizer-ci.com/g/nWidart/laravel-videoable)
 [![Total Downloads][ico-downloads]][link-downloads]
 
@@ -107,7 +107,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 [ico-version]: https://img.shields.io/packagist/v/nwidart/laravel-videoable.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/nwidart/laravel-videoable/master.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/nwidart/laravel-videoable/1.0.svg?style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/nwidart/laravel-videoable.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/nwidart/laravel-videoable.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/nwidart/laravel-videoable.svg?style=flat-square
