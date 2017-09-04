@@ -4,6 +4,10 @@ php:
   - 7.0
   - 7.1
 
+env:
+  global:
+    - coverage=no
+
 matrix:
   include:
     - php: 7.0
