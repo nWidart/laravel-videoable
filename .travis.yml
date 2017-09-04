@@ -4,6 +4,13 @@ php:
   - 7.0
   - 7.1
 
+matrix:
+  include:
+    - php: 7.0
+      env: coverage=no
+    - php: 7.1
+      env: coverage=yes
+
 cache:
   directories:
     - $HOME/.composer/cache
@@ -17,4 +24,4 @@ script:
 
 after_script:
   - wget https://scrutinizer-ci.com/ocular.phar
-  - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+  - if [[ $coverage = 'yes' ]]; then php ocular.phar code-coverage:upload --format=php-clover coverage.clover; fi
