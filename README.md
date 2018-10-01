@@ -2,8 +2,8 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/nWidart/laravel-videoables/2.0.svg?style=flat-square)](https://travis-ci.org/nWidart/laravel-videoable)
-[![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/nWidart/laravel-videoable.svg?style=flat-square)](https://scrutinizer-ci.com/g/nWidart/laravel-videoable/?branch=2.0)
+[![Build Status](https://img.shields.io/travis/nWidart/laravel-videoables/master.svg?style=flat-square)](https://travis-ci.org/nWidart/laravel-videoable)
+[![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/nWidart/laravel-videoable.svg?style=flat-square)](https://scrutinizer-ci.com/g/nWidart/laravel-videoable/?branch=master)
 [![Quality Score](https://img.shields.io/scrutinizer/g/nWidart/laravel-videoable.svg?style=flat-square)](https://scrutinizer-ci.com/g/nWidart/laravel-videoable)
 [![Total Downloads][ico-downloads]][link-downloads]
 
