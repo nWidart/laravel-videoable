@@ -11,6 +11,7 @@
 |---|---|
 | <= 5.4  | ^1.0 |
 | 5.5  | ^2.0  |
+| 5.7  | ^3.0  |
 
 **Laravel Videoable** is a quick and easy way to add a video to your Eloquent Models. It also features a way to generate the embed code directly.
 
