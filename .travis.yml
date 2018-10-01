@@ -1,8 +1,8 @@
 language: php
 
 php:
-  - 7.0
   - 7.1
+  - 7.2
 
 env:
   global:
@@ -10,10 +10,10 @@ env:
 
 matrix:
   include:
-    - php: 7.0
-      env: coverage=no
     - php: 7.1
       env: coverage=yes
+    - php: 7.2
+      env: coverage=no
 
 cache:
   directories:
